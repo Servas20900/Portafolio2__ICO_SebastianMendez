@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    
+}
+.container {
+    width: 100%;
+    max-width: 1510px;
+    min-width: 1300px;
+    background-color: #333;
+    padding: 5px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #404040;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #595959;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    border: 2px solid #595959;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.search-bar {
+    flex-grow: 0.5;
+    margin: 0 5px;
+    padding: 5px;
+    border: 2px solid #2f2e2e;
+    border-radius: 25px;
+}
+.buttons button {
+    
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #2f2e2e;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #2f2e2e;
+    border-radius: 25px;
+
+}
+
+.iconoConfig{
+    color: #fff ;
+}
+
+.content{
+    text-align:center ;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+
+.imgadentro{
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 25px;
+    height: 200px;
+    width: 1000px;
+    display: flex;
+}
+
+
+
+
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.imgbox {
+    height: 200px;
+    width: 200x;
+    border-radius: 15px;
+    display: flex;
+    border: 0.5px solid #595959;
+    flex: 1;
+    
+    
+}
+
+.arrowIzquierda {
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px; 
+    margin-top: 20px;
+
+}
+
+.arrowDerecha{
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px; 
+}
+
+
+
+.footer {
+    background-color: #404040;
+    padding: 60px;
+    margin-top: auto;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #595959;
+    text-align:left ;
+    color: #fff;
+    font-size: 12px;
+}

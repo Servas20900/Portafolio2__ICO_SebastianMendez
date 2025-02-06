@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    width: 400px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+}
+
+.formulario form {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.username, .contrasena {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.username input,
+.contrasena input {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label,
+.contrasena label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    transform: translateY(-50%);
+}
+
+.username input:focus ~ label,
+.contrasena input:focus ~ label,
+.username input:not(:placeholder-shown) ~ label,
+.contrasena input:not(:placeholder-shown) ~ label {
+    top: -10px;
+    font-size: 14px;
+    color: #0D0D0D;
+    opacity: 0;
+}
+
+.recordar {
+    text-align: left;
+    color: #1B8EF2;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.ingresar {
+    display: block;
+    text-align: center;
+    padding: 12px 24px;
+    background-color: #2f2e2e;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 2px solid #fff;
+}
+
+.ingresar button {
+    all: unset;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.registrarse {
+    text-align: left;
+    font-size: 14px;
+    color: #1B8EF2;
+    margin-top: 10px;
+}
+
+.register {
+    
+    text-decoration: none;
+}
+
+.iconoArrowLeft fa-solid fa-arrow-left {
+    color: #0D0D0D;
+    
+}
